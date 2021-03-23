@@ -1,0 +1,50 @@
+2021-03-24 00:11:27.199  INFO Home-New - [           main] d.MyDb_sample                  : H2 Database server is now accepting connections.
+2021-03-24 00:11:27.207  INFO Home-New - [           main] d.MyDb_sample                  : H2 server has started with status 'TCP server running at tcp://172.18.208.1:9092 (others can connect)'.
+2021-03-24 00:11:27.210 DEBUG Home-New - [           main] c.z.h.HikariConfig             : Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2437c6dc
+2021-03-24 00:11:27.215  WARN Home-New - [           main] c.z.h.HikariConfig             : HikariPool-1 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2021-03-24 00:11:27.215 DEBUG Home-New - [           main] c.z.h.HikariConfig             : HikariPool-1 - configuration:
+2021-03-24 00:11:27.218 DEBUG Home-New - [           main] c.z.h.HikariConfig             : allowPoolSuspension................................false
+2021-03-24 00:11:27.218 DEBUG Home-New - [           main] c.z.h.HikariConfig             : autoCommit................................true
+2021-03-24 00:11:27.218 DEBUG Home-New - [           main] c.z.h.HikariConfig             : catalog................................none
+2021-03-24 00:11:27.218 DEBUG Home-New - [           main] c.z.h.HikariConfig             : connectionInitSql................................none
+2021-03-24 00:11:27.218 DEBUG Home-New - [           main] c.z.h.HikariConfig             : connectionTestQuery................................none
+2021-03-24 00:11:27.218 DEBUG Home-New - [           main] c.z.h.HikariConfig             : connectionTimeout................................10000
+2021-03-24 00:11:27.219 DEBUG Home-New - [           main] c.z.h.HikariConfig             : dataSource................................none
+2021-03-24 00:11:27.219 DEBUG Home-New - [           main] c.z.h.HikariConfig             : dataSourceClassName................................none
+2021-03-24 00:11:27.219 DEBUG Home-New - [           main] c.z.h.HikariConfig             : dataSourceJNDI................................none
+2021-03-24 00:11:27.220 DEBUG Home-New - [           main] c.z.h.HikariConfig             : dataSourceProperties................................{password=<masked>, cachePrepStmts=true, prepStmtsCacheSize=500}
+2021-03-24 00:11:27.220 DEBUG Home-New - [           main] c.z.h.HikariConfig             : driverClassName................................"org.h2.Driver"
+2021-03-24 00:11:27.220 DEBUG Home-New - [           main] c.z.h.HikariConfig             : exceptionOverrideClassName................................none
+2021-03-24 00:11:27.220 DEBUG Home-New - [           main] c.z.h.HikariConfig             : healthCheckProperties................................{}
+2021-03-24 00:11:27.220 DEBUG Home-New - [           main] c.z.h.HikariConfig             : healthCheckRegistry................................none
+2021-03-24 00:11:27.221 DEBUG Home-New - [           main] c.z.h.HikariConfig             : idleTimeout................................60000
+2021-03-24 00:11:27.221 DEBUG Home-New - [           main] c.z.h.HikariConfig             : initializationFailTimeout................................1
+2021-03-24 00:11:27.221 DEBUG Home-New - [           main] c.z.h.HikariConfig             : isolateInternalQueries................................false
+2021-03-24 00:11:27.222 DEBUG Home-New - [           main] c.z.h.HikariConfig             : jdbcUrl................................jdbc:h2:~/sample
+2021-03-24 00:11:27.222 DEBUG Home-New - [           main] c.z.h.HikariConfig             : keepaliveTime................................0
+2021-03-24 00:11:27.222 DEBUG Home-New - [           main] c.z.h.HikariConfig             : leakDetectionThreshold................................0
+2021-03-24 00:11:27.222 DEBUG Home-New - [           main] c.z.h.HikariConfig             : maxLifetime................................1800000
+2021-03-24 00:11:27.223 DEBUG Home-New - [           main] c.z.h.HikariConfig             : maximumPoolSize................................10
+2021-03-24 00:11:27.223 DEBUG Home-New - [           main] c.z.h.HikariConfig             : metricRegistry................................none
+2021-03-24 00:11:27.223 DEBUG Home-New - [           main] c.z.h.HikariConfig             : metricsTrackerFactory................................none
+2021-03-24 00:11:27.223 DEBUG Home-New - [           main] c.z.h.HikariConfig             : minimumIdle................................1
+2021-03-24 00:11:27.223 DEBUG Home-New - [           main] c.z.h.HikariConfig             : password................................<masked>
+2021-03-24 00:11:27.223 DEBUG Home-New - [           main] c.z.h.HikariConfig             : poolName................................"HikariPool-1"
+2021-03-24 00:11:27.223 DEBUG Home-New - [           main] c.z.h.HikariConfig             : readOnly................................false
+2021-03-24 00:11:27.223 DEBUG Home-New - [           main] c.z.h.HikariConfig             : registerMbeans................................false
+2021-03-24 00:11:27.223 DEBUG Home-New - [           main] c.z.h.HikariConfig             : scheduledExecutor................................none
+2021-03-24 00:11:27.223 DEBUG Home-New - [           main] c.z.h.HikariConfig             : schema................................none
+2021-03-24 00:11:27.224 DEBUG Home-New - [           main] c.z.h.HikariConfig             : threadFactory................................internal
+2021-03-24 00:11:27.224 DEBUG Home-New - [           main] c.z.h.HikariConfig             : transactionIsolation................................default
+2021-03-24 00:11:27.224 DEBUG Home-New - [           main] c.z.h.HikariConfig             : username................................"sa"
+2021-03-24 00:11:27.224 DEBUG Home-New - [           main] c.z.h.HikariConfig             : validationTimeout................................5000
+2021-03-24 00:11:27.226  INFO Home-New - [           main] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2021-03-24 00:11:27.267 DEBUG Home-New - [           main] c.z.h.p.HikariPool             : HikariPool-1 - Added connection conn1: url=jdbc:h2:~/sample user=SA
+2021-03-24 00:11:27.268  INFO Home-New - [           main] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2021-03-24 00:11:27.285  WARN Home-New - [           main] d.MyDb_sample                  : Unable to create target database table. It already exists.
+2021-03-24 00:11:27.288 DEBUG Home-New - [onnection adder] c.z.h.p.HikariPool             : HikariPool-1 - Added connection conn2: url=jdbc:h2:~/sample user=SA
+2021-03-24 00:11:27.300  INFO Home-New - [           main] d.MyDb_sample                  : id:1001, firstName:John, lastName:Potter, age:40.
+2021-03-24 00:11:27.300  INFO Home-New - [           main] d.MyDb_sample                  : id:1002, firstName:Mark, lastName:Johnson, age:25.
+2021-03-24 00:11:27.300  INFO Home-New - [           main] d.MyDb_sample                  : id:1003, firstName:Roger, lastName:Smith, age:35.
+2021-03-24 00:11:27.300  INFO Home-New - [           main] d.MyDb_sample                  : id:1004, firstName:Mary, lastName:Williams, age:39.
+2021-03-24 00:11:27.300  INFO Home-New - [           main] d.MyDb_sample                  : id:1005, firstName:Joan, lastName:Foster, age:26.
